@@ -58,4 +58,5 @@
 +  gpsCoordinates?: { lat: number; lng: number; };
 +}
 +
- export interface Invoice {
+ e
+}xport interface Invoice {

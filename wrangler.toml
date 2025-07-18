@@ -1,0 +1,17 @@
+name = "security-advisors-backoffice-parking-app"
+compatibility_date = "2024-04-03"
+pages_build_output_dir = "dist"
+
+[env.production]
+name = "security-advisors-backoffice-parking-app"
+
+[env.preview]
+name = "security-advisors-backoffice-parking-app-preview"
+
+[[env.production.routes]]
+pattern = "*"
+zone_name = "your-domain.com"
+
+[[env.preview.routes]]
+pattern = "*"
+zone_name = "your-domain.com"
